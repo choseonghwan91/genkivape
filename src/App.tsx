@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {addNumber(1, 2)}
+      <div className="bg-green-500">Hi</div>
+      <div className="bg-green-500 h-5">Hi</div>
     </div>
   );
 }
+
+function addNumber(a: number, b: number): number {
+  return a + b;
+}
+
+addNumber(1, 2);
 
 export default App;
