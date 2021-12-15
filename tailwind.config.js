@@ -29,8 +29,6 @@ module.exports = {
     },
     spacing: {
       px: "1px",
-      "400px": "400px",
-      "500px": "500px",
       0: "0px",
       0.5: "0.125rem",
       1: "0.25rem",
@@ -97,8 +95,6 @@ module.exports = {
       "gradient-to-l": "linear-gradient(to left, var(--tw-gradient-stops))",
       "gradient-to-tl":
         "linear-gradient(to top left, var(--tw-gradient-stops))",
-      ourStoryDark:
-        "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.unsplash.com/photo-1613152385872-12bef922ca63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1830&q=80')",
     },
     backgroundOpacity: (theme) => theme("opacity"),
     backgroundPosition: {
